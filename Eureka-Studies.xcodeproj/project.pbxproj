@@ -11,6 +11,8 @@
 		222204D62000209200190D9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222204D52000209200190D9F /* ViewController.swift */; };
 		222204DB2000209200190D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222204DA2000209200190D9F /* Assets.xcassets */; };
 		222204DE2000209200190D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222204DC2000209200190D9F /* LaunchScreen.storyboard */; };
+		222204E72000356200190D9F /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222204E62000356200190D9F /* cell.swift */; };
+		222204E92000380E00190D9F /* controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222204E82000380E00190D9F /* controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		222204DA2000209200190D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222204DD2000209200190D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		222204DF2000209200190D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222204E62000356200190D9F /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		222204E82000380E00190D9F /* controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		222204D22000209200190D9F /* Eureka-Studies */ = {
 			isa = PBXGroup;
 			children = (
+				222204E52000354200190D9F /* core */,
 				222204D32000209200190D9F /* AppDelegate.swift */,
 				222204D52000209200190D9F /* ViewController.swift */,
 				222204DA2000209200190D9F /* Assets.xcassets */,
@@ -59,6 +64,15 @@
 				222204DF2000209200190D9F /* Info.plist */,
 			);
 			path = "Eureka-Studies";
+			sourceTree = "<group>";
+		};
+		222204E52000354200190D9F /* core */ = {
+			isa = PBXGroup;
+			children = (
+				222204E62000356200190D9F /* cell.swift */,
+				222204E82000380E00190D9F /* controller.swift */,
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				222204D62000209200190D9F /* ViewController.swift in Sources */,
+				222204E72000356200190D9F /* cell.swift in Sources */,
 				222204D42000209200190D9F /* AppDelegate.swift in Sources */,
+				222204E92000380E00190D9F /* controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
