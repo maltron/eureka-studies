@@ -12,7 +12,8 @@
 		222204DB2000209200190D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222204DA2000209200190D9F /* Assets.xcassets */; };
 		222204DE2000209200190D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222204DC2000209200190D9F /* LaunchScreen.storyboard */; };
 		222204E72000356200190D9F /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222204E62000356200190D9F /* cell.swift */; };
-		222204E92000380E00190D9F /* controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222204E82000380E00190D9F /* controller.swift */; };
+		2222050B2001161500190D9F /* viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222050A2001161500190D9F /* viewcontroller.swift */; };
+		2243B435200295B6006846F9 /* form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243B434200295B6006846F9 /* form.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		222204DD2000209200190D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		222204DF2000209200190D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222204E62000356200190D9F /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
-		222204E82000380E00190D9F /* controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controller.swift; sourceTree = "<group>"; };
+		2222050A2001161500190D9F /* viewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller.swift; sourceTree = "<group>"; };
+		2243B434200295B6006846F9 /* form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = form.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				222204E62000356200190D9F /* cell.swift */,
-				222204E82000380E00190D9F /* controller.swift */,
+				2222050A2001161500190D9F /* viewcontroller.swift */,
+				2243B434200295B6006846F9 /* form.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -147,9 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				222204D62000209200190D9F /* ViewController.swift in Sources */,
+				2222050B2001161500190D9F /* viewcontroller.swift in Sources */,
 				222204E72000356200190D9F /* cell.swift in Sources */,
+				2243B435200295B6006846F9 /* form.swift in Sources */,
 				222204D42000209200190D9F /* AppDelegate.swift in Sources */,
-				222204E92000380E00190D9F /* controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
