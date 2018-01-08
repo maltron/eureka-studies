@@ -21,7 +21,8 @@ public final class NForm {
     
     public init() {
     }
-  
+    
+     lazy var kvoWrapper: KVOWrapper = { [unowned self] in return KVOWrapper(form: self)}()
 }
 
 extension NForm {
@@ -71,6 +72,39 @@ extension NForm {
         }
 
     }
+}
+
+extension NForm: Collection {
+    // Collection: Finding Elements
+    // Collection: Inspecting a Collection
+    // Collection: Selecting and Exclusing Elements
+    // Collection: Manipulating Indices
+    // Collection: Transforming a Collection
+    // Collection: Acessing a Collection's Elements
+    // Collection: Associated Types
+    // Collection: Iterating Over a Collection's Elements
+    // Collection: Splitting and Joining Elements
+}
+
+extension NForm: MutableCollection {
+    // MutableCollection: Associated Types
+    
+    // MutableCollection: Instance Methods
+    
+    // REQUIRED: Reorders the elemtns of the collection such that all the elemtns that match the given
+    //           predicate are after the all the elements that don't match
+    public mutating func partition(by belongsInSecondPartition: (NForm.Element) throws -> Bool) rethrows -> NForm.Index {
+        
+    }
+    
+    // REQUIRED: Exchanges the values at the specified indicies of the collection.
+    func swapAt(_ i: NForm.Index, _ j: NForm.Index) {
+        
+    }
+    
+    // MutableCollection: Subscripts
+    
+    
 }
 
 class NSection {
